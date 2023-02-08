@@ -1,4 +1,4 @@
-// JavaScript for About page 
+// JavaScript for About page
 
 const menu = document.querySelector('.hamburger');
 const mobileMenu = document.querySelector('.mobile-nav');
