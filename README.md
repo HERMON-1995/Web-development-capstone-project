@@ -1,5 +1,3 @@
-This is HTML/CSS &amp; JavaScript capstone project building web development course web site.
-
 # Web-development-course-project
 
 <a name="readme-top"></a>
