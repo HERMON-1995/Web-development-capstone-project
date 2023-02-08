@@ -4,25 +4,13 @@ html {
 }
 
 body {
-  font-family: 'COCOGOOSE', sans-serif;
-  margin: 0;
   padding: 0;
 }
 
-*,
-*::before,
-*::after {
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-  margin: 0;
 }
 
 .header {
@@ -30,7 +18,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  min-height: 800px;
+  min-height: 600px;
 }
 
 .top {
@@ -176,7 +164,6 @@ h1 {
 .long-par-cont {
   border: 3px solid white;
   margin-left: 15px;
-  margin-right: 50px;
   background-color: #f6f6f6;
   margin-top: 50px;
 }
@@ -192,6 +179,7 @@ h1 {
   font-size: 17px;
   padding: 10px;
   color: #272a31;
+  text-align: center;
 }
 
 .h2-header {
@@ -445,6 +433,10 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    min-height: 800px;
+  }
+
   .hamburger {
     display: none;
   }
@@ -456,7 +448,7 @@ footer {
   .desktop-nav {
     display: flex;
     justify-content: space-between;
-    padding: 15px 10vw;
+    padding: 15px 5vw;
     background-color: #fff;
   }
 
@@ -468,6 +460,7 @@ footer {
     width: 200px;
     height: 60px;
     border-radius: 50px;
+    margin-right: 5px;
   }
 
   .desktop-nav a img:hover {
@@ -486,15 +479,21 @@ footer {
     text-decoration: none;
     font-family: 'Lato', sans-serif;
     color: #272a31;
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  .desktop-nav ul li .connected-div {
+    width: 150px;
+    height: 30px;
+    border: 5px solid #ec5242;
+    display: flex;
+    align-items: center;
   }
 
   .desktop-nav .connected a {
-    border: 5px solid #ec5242;
     color: #ec5242;
-    padding: 5px 10px;
-    margin-top: -10px;
-    font-size: 22px;
+    padding: 5px 5px;
+    font-size: 20px;
   }
 
   .desktop-nav ul li a:hover {
@@ -508,17 +507,17 @@ footer {
   .introduction h1 {
     font-size: 100px;
     line-height: 75px;
-    padding-left: 200px;
+    padding-left: 150px;
   }
 
   .introduction .welcome-par {
     font-size: 50px;
-    padding-left: 200px;
+    padding-left: 150px;
   }
 
   .long-par-cont {
-    margin-left: 200px;
-    margin-right: 600px;
+    margin-left: 150px;
+    margin-right: 500px;
   }
 
   .long-par-cont .long-par {
@@ -533,13 +532,13 @@ footer {
   .introduction h2 {
     padding-top: 0;
     padding-bottom: 0;
-    padding-left: 200px;
+    padding-left: 150px;
     font-size: 50px;
   }
 
   .introduction .location-par {
     padding-top: 0;
-    padding-left: 200px;
+    padding-left: 150px;
     font-size: 20px;
   }
 
