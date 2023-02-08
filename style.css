@@ -424,10 +424,11 @@ footer {
 }
 
 .left-cont h3 {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .right-cont p {
+  font-size: 11px;
   padding-top: 10px;
   padding-left: 25px;
 }
