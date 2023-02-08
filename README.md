@@ -31,7 +31,7 @@
 
 **[Web-development-course-project]** is a capstone project of building a home page and about page for Mobile and Desktop version using HTML, CSS and JavaScript.
 
- **[]** here is my short video explaining about my project.
+ **[https://www.loom.com/share/ff66d7db63b34304a7ebaf77f721cdc3]** here is my short video explaining about my project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
