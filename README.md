@@ -1,4 +1,4 @@
-# Web-development-capstone-project
+# Web development capstone project
 
 <a name="readme-top"></a>
 
@@ -27,9 +27,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Web-development-capstone-project] <a name="about-project"></a>
+# 📖 [Web development capstone project] <a name="about-project"></a>
 
-**Web-development-capstone-project]** is online courses for building websites from scratch where users can choose and take free online web-development courses.
+**[Web development capstone project]** is online courses for building websites from scratch where users can choose and take free online web-development courses.
 
 ## 🛠 Built With <a name="built-with"></a>
 
