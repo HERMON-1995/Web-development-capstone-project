@@ -1,4 +1,4 @@
-# Web-development-course-project
+# Web-development-capstone-project
 
 <a name="readme-top"></a>
 
@@ -27,26 +27,20 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Web-development-course-project] <a name="about-project"></a>
+# 📖 [Web-development-capstone-project] <a name="about-project"></a>
 
-**[Web-development-course-project]** is a capstone project of building a home page and about page for Mobile and Desktop version using HTML, CSS and JavaScript.
-
- *[Presentation](https://www.loom.com/share/ff66d7db63b34304a7ebaf77f721cdc3) here is my short video explaining about my project.
+**Web-development-capstone-project]** is online courses for building websites from scratch where users can choose and take free online web-development courses.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-Client
-
-Key Features
-
-**[WebDev-course-branch]**
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://html.com/">HTML</a></li>
+    <li><a href="https://www.w3.org/Style/CSS/">CSS</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
   </ul>
 </details>
 
@@ -54,7 +48,8 @@ Key Features
 
 ### Key Features <a name="key-features"></a>
 
-- **[WebDev-course-branch]**
+- **[Display courses]**
+- **[Select courses]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,9 +57,10 @@ Key Features
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- See live here : (https://hermon-1995.github.io/HTML-CSS-JavaScript-capstone-project/).
+- [See live here](https://hermon-1995.github.io/Web-development-capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 
@@ -72,30 +68,44 @@ Key Features
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need to:
 
 ```sh
- to use Git, GitHub and linters.
- vs code
+Set up linters
 ```
 
 ### Setup
 
-Clone this repository to your desired folder: [https://github.com/HERMON-1995/HTML-CSS-JavaScript-capstone-project]
+Clone this repository to your desired folder:
 
 ```sh
-  cd my-folder
-  git clone git@github.com:HERMON-1995/HTML-CSS-JavaScript-capstone-project.git
-```
+  cd Web-development-capstone-project
+  git clone https://github.com/HERMON-1995/Web-development-capstone-project.git
+  
 ### Install
-
-### Usage
+ 
+ ```sh
+ cd Web-development-capstone-project
+ ```
+ ```sh
+ npm install
+ ```
 
 ### Run tests
 
+```sh
+npx hint .
+```
+```sh
+npx stylelint "**/*.{css,scss}"
+```
+```sh
+npx eslint .
+```
+
 ### Deployment
 
-- (Deployment method using GitHub pages)
+- GitHub pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,22 +114,17 @@ Clone this repository to your desired folder: [https://github.com/HERMON-1995/HT
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Author1**
- *[Programmer: Hermon Gebre]*
+ *[HERMON Gebre]*
  
-- GitHub: [@githubhandle](https://github.com/HERMON-1995)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hermon-gebre-03290a228/)
-
-👤 **Author2**
- *[Web-Designer: Cindy Shin in Behance]*
- 
- - Behance: (https://www.behance.net/adagio07)
+- [GitHub profile](https://github.com/HERMON-1995)
+- [LinkedIn](https://www.linkedin.com/in/hermon-gebre)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-    #[New-pages-branch]
+    #[Buy courses]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,7 +132,7 @@ Clone this repository to your desired folder: [https://github.com/HERMON-1995/HT
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+- [Issues](https://github.com/HERMON-1995/Web-development-capstone-project/issues?q=is%3Aissue+is%3Aclosed)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,7 +140,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please show support.
+If you like this project please show support by staring ⭐️.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,4 +160,3 @@ If you like this project please show support.
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
