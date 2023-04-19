@@ -1,0 +1,221 @@
+/* About.html file styles */
+.about-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-intro .welcome-par {
+  padding-left: 0;
+}
+
+.about-intro h1 {
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.about-intro .long-par-cont {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.about-intro .long-par-cont .desktop-par {
+  display: none;
+}
+
+.about-intro .h2-header {
+  font-weight: 100;
+  font-size: 15px;
+  padding-left: 0;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 0;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.about-intro .location-par {
+  border-bottom: 1px solid #272a31;
+  font-weight: 700;
+  font-size: 15px;
+  padding-left: 0;
+  text-align: center;
+  padding-top: 0;
+  margin-bottom: 10px;
+}
+
+.about-section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-section1 h3 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.about-section1 p {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.about-section1 img {
+  object-fit: contain;
+  border: 1px solid #d3d3d3;
+  border-radius: 50px;
+  width: 250px;
+  height: 100px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.free-about .section1-title {
+  width: 50%;
+}
+
+.about-courses .one {
+  text-align: center;
+  padding: 40px 20px;
+  color: white;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  background-image: url(./images/html-css-about-img.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgb(200 67 53 / 55%);
+  transition: 0.8s;
+}
+
+.about-courses .one:hover {
+  border: 2px solid #272a31;
+}
+
+.about-courses h3 {
+  margin-top: 0;
+}
+
+.about-courses .two {
+  text-align: center;
+  padding: 40px 20px;
+  color: white;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  background-image: url(./images/js-about-img.png);
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgb(200 67 53 / 55%);
+  transition: 0.8s;
+}
+
+.about-courses .two:hover {
+  border: 2px solid #272a31;
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-nav ul li .about-link {
+    color: #ec5242;
+    border-bottom: 1px solid #ec5242;
+  }
+
+  .about-intro .welcome-par {
+    display: none;
+  }
+
+  .about-intro h1 {
+    font-size: 100px;
+    line-height: 75px;
+    width: 60%;
+    padding-left: 0;
+    margin-top: 70px;
+  }
+
+  .about-intro .long-par-cont .about-par {
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .about-intro .long-par-cont .desktop-par {
+    display: block;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .about-intro .long-par-cont {
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+
+  .about-intro .h2-header {
+    font-weight: 100;
+    font-size: 18px;
+  }
+
+  .about-intro .location-par {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+
+  .about-section1 p {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+  }
+
+  .about-section1 img {
+    width: 400px;
+    height: 200px;
+  }
+
+  .about-courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    max-width: 75%;
+    margin: auto;
+  }
+
+  .about-courses .about-course {
+    padding: 75px 90px;
+  }
+
+  .about-courses .one {
+    padding-left: 65px;
+    padding-right: 65px;
+    transition: 0.8s;
+  }
+
+  .about-courses .two {
+    transition: 0.8s;
+  }
+
+  .partner {
+    display: none;
+  }
+
+  footer {
+    background-color: #272a31;
+  }
+
+  .foot-container .left-cont h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .foot-container .right-cont p {
+    color: #fff;
+    font-size: 11px;
+    margin-top: 20px;
+  }
+
+  .foot-container .right-cont p br {
+    display: none;
+  }
+}
