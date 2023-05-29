@@ -70,9 +70,7 @@
 
 In order to run this project you need to:
 
-```sh
-Set up linters
-```
+- Download [node](https://nodejs.org)
 
 ### Setup
 
@@ -81,7 +79,7 @@ Clone this repository to your desired folder:
 ```sh
   cd Web-development-capstone-project
   git clone https://github.com/HERMON-1995/Web-development-capstone-project.git
-  
+```
 ### Install
  
  ```sh
